@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">InventoryAppStage1</string>
+    <string name="delete">delete all data</string>
+    <string name="action_save">save</string>
+    <string name="product">product</string>
+    <string name="name">name</string>
+    <string name="price">price</string>
+    <string name="quantity">quantity</string>
+    <string name="product_name">product name</string>
+    <string name="supplier">supplier</string>
+    <string name="supplier_name">supplier name</string>
+    <string name="phone_number">phone number</string>
+    <string name="list_of_products">list of all products</string>
+</resources>

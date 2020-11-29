@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">NewsAppStage2</string>
+
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="no_news">no news found, try to reload the application.</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">URL Settings</string>
+
+    <string name="settings_search_label">press to set the search expression\ncurrent word:</string>
+    <string name="new_search_word_key" translatable="false">search</string>
+    <string name="settings_default" translatable="false">london</string>
+
+    <!-- Strings For list size [CHAR LIMIT=30] -->
+    <string name="settings_size_label">size of result</string>
+    <string name="settings_size_key" translatable="false">size</string>
+    <string name="settings_size_by_default" translatable="false">10</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_size_label_1">1</string>
+    <string name="settings_size_value_1" translatable="false">1</string>
+    <string name="settings_size_label_10">10</string>
+    <string name="settings_size_value_10" translatable="false">10</string>
+    <string name="settings_size_label_100">100</string>
+    <string name="settings_size_value_100" translatable="false">100</string>
+</resources>

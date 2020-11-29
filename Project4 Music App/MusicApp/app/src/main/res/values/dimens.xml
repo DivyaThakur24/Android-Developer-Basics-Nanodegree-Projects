@@ -1,0 +1,25 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="headphones">200dp</dimen>
+    <dimen name="threehundred">300dp</dimen>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="value_3">3dp</dimen>
+    <dimen name="value_4">4dp</dimen>
+    <dimen name="value_10">10dp</dimen>
+    <dimen name="value_11">11dp</dimen>
+    <dimen name="value_15">15dp</dimen>
+    <dimen name="value_16">16dp</dimen>
+    <dimen name="value_20">20dp</dimen>
+    <dimen name="value_24">24dp</dimen>
+    <dimen name="value_30">30dp</dimen>
+    <dimen name="value_44">44dp</dimen>
+    <dimen name="value_50">50dp</dimen>
+    <dimen name="value_70">70dp</dimen>
+    <dimen name="value_80">80dp</dimen>
+    <dimen name="value_84">84dp</dimen>
+    <dimen name="value_88">88dp</dimen>
+    <dimen name="value_110">110dp</dimen>
+    <dimen name="value_150">150dp</dimen>
+    <dimen name="value_txt">16sp</dimen>
+</resources>

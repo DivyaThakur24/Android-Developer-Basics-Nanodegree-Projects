@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="firstMarginLeft">40dp</dimen>
+    <dimen name="firstMarginTop">240dp</dimen>
+    <dimen name="cardELevate">12dp</dimen>
+    <dimen name="paddingValue">8dp</dimen>
+    <dimen name="secondMarginLeft">105dp</dimen>
+    <dimen name="valueMarginTop">12dp</dimen>
+    <dimen name="thirdMarginLeft">95dp</dimen>
+    <dimen name="fourthMarginLeft">10dp</dimen>
+    <dimen name="fourthMarginRight">10dp</dimen>
+
+
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Business Card</string>
+    <string name="aboutUs">About Us</string>
+    <string name="description">A Fast Food Restaurant that serves\nyummy burgers, pizzas and sandwitches.\nwww.fastfood.com</string>
+    <string name="callNow">Call Now!</string>
+    <string name="number">+91 9123456780</string>
+    <string name="email">fast_food@food.com</string>
+    <string name="mailNow">Mail Now</string>
+    <string name="address">1600 Amphitheatre Parkway, Mountain View, CA 94043</string>
+    <string name="welcome">Welcome!</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <ListPreference
+        android:defaultValue="@string/settings_size_by_default"
+        android:entries="@array/settings_size_by_labels"
+        android:entryValues="@array/settings_size_by_values"
+        android:key="@string/settings_size_key"
+        android:title="@string/settings_size_label" />
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_default"
+        android:inputType="text"
+        android:singleLine="true"
+        android:key="@string/new_search_word_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_search_label"
+        android:singleLineTitle="false"/>
+
+</PreferenceScreen>

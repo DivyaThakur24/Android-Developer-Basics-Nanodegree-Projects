@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="onedip">1dp</dimen>
+    <dimen name="twoDips">2dp</dimen>
+    <dimen name="threeDips">3dp</dimen>
+    <dimen name="fourDips">4dp</dimen>
+    <dimen name="eightdips">8dp</dimen>
+    <dimen name="twelveDips">12dp</dimen>
+    <dimen name="eighteenDips">18dp</dimen>
+    <dimen name="fourHunderedFiveDips">405dp</dimen>
+    <dimen name="eighteenSp">18sp</dimen>
+    <dimen name="thirtysixSp">36sp</dimen>
+    <dimen name="fortyeightSp">48sp</dimen>
+
+</resources>

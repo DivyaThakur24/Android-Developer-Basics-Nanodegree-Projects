@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_size_by_labels">
+        <item>@string/settings_size_label_1</item>
+        <item>@string/settings_size_label_10</item>
+        <item>@string/settings_size_label_100</item>
+    </string-array>
+
+    <string-array name="settings_size_by_values">
+        <item>@string/settings_size_value_1</item>
+        <item>@string/settings_size_value_10</item>
+        <item>@string/settings_size_value_100</item>
+
+
+    </string-array>
+</resources>

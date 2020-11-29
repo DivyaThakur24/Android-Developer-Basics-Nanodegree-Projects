@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/player"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/toolbar"
+    tools:context="com.example.android.soundtrack.Player">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/transparent">
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/headphones"
+        style="@style/HeadPhones"
+        tools:ignore="ContentDescription"/>
+
+    <LinearLayout
+        android:id="@+id/play"
+        style="@style/LayoutForPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/back"
+            style="@style/Icons_play.Back"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/start"
+            style="@style/Icons_play"
+            android:layout_width="@dimen/value_80"
+            android:layout_height="@dimen/value_80"
+            android:padding="@dimen/value_10"
+            android:src="@drawable/start"
+            tools:ignore="ContentDescription" />
+
+
+        <ImageView
+            android:id="@+id/forward"
+            style="@style/Icons_play"
+            android:padding="@dimen/value_10"
+            android:src="@drawable/forw"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        style="@style/SeekBar" />
+
+    <LinearLayout
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/seekBar"
+        android:layout_marginTop="@dimen/value_30"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/playlist"
+            style="@style/Icons_In_player"
+            android:src="@drawable/favorite"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/like"
+            style="@style/Icons_In_player"
+            android:src="@drawable/note"
+            tools:ignore="ContentDescription" />
+
+
+        <ImageView
+            android:id="@+id/mix"
+            style="@style/Icons_In_player"
+            android:src="@drawable/favorite"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="text_logo">An Interactive Quiz App</string>
+    <string name="text_hint_email">hola@you.com</string>
+    <string name="text_hint_password">....</string>
+    <string name="text_name">your_name</string>
+    <string name="name">NAME</string>
+    <string name="email">EMAIL</string>
+    <string name="pass">PASSWORD</string>
+    <string name="text_login">Login</string>
+
+    <string name="Ques1">Question 1: Which country\'s flag is depicted above?</string>
+    <string name="Ques2">Question 2: What is the unit for measuring the amplitude of sound?</string>
+    <string name="Ques3">Question 3: Which micro-organism is responsible for Nitrogen-Fixation?</string>
+    <string name="Ques4">Question 4: What does a Fathometer measure?</string>
+    <string name="Ques5">Question 5: Buoyancy is the measure of force exerted on an object, when immersed in ____?</string>
+    <string name="Ques6">Question 6: In which year, did the World War II begin?</string>
+
+    <string name="Option1">France</string>
+    <string name="Option2">Germany</string>
+    <string name="Option3">Spain</string>
+    <string name="Option4">Singapore</string>
+
+    <string name="Option5">Coulomb</string>
+    <string name="Option6">Decibel</string>
+    <string name="Option7">Watt</string>
+    <string name="Option8">Cycles</string>
+
+    <string name="Option9">Fungi</string>
+    <string name="Option10">Bacteria</string>
+    <string name="Option11">Algae</string>
+    <string name="Option12">Blue Algae</string>
+
+    <string name="Option13">Earthquakes</string>
+    <string name="Option14">Rainfall</string>
+    <string name="Option15">Ocean Depth</string>
+    <string name="Option16">Sound Intensity</string>
+
+    <string name="Option17">Solids</string>
+    <string name="Option18">Liquids</string>
+    <string name="Option19">Gases</string>
+    <string name="Option20">None of These</string>
+
+    <string name="submit">SUBMIT</string>
+</resources>

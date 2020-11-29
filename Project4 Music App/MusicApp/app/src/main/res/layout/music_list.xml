@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawSelectorOnTop="true"
+    android:background="@color/background"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/trackPic"
+        style="@style/ArtistImg"
+        tools:ignore="ContentDescription"
+        tools:src="@drawable/notes" />
+
+    <TextView
+        android:id="@+id/Artist"
+        style="@style/ArtistTxt"
+        tools:text="Artist" />
+</RelativeLayout>
+

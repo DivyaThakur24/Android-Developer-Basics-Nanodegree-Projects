@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutList"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/value_88"
+    android:background="@color/background"
+    android:drawSelectorOnTop="true">
+
+
+    <ImageView
+        android:id="@+id/Putpic"
+        android:layout_width="@dimen/value_84"
+        android:layout_height="@dimen/value_84"
+        tools:ignore="ContentDescription" />
+
+    <RelativeLayout
+        style="@style/RelativeLayout_inOrder"
+        tools:background="@color/black">
+
+
+        <TextView
+            android:id="@+id/Putname"
+            style="@style/Text_inOrder"
+            tools:text="Movie" />
+    </RelativeLayout>
+
+</RelativeLayout>

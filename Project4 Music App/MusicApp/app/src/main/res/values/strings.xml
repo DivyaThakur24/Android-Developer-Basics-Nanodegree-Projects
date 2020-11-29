@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">MusicStructureApp</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="header">Music Structure App</string>
+    <string name="category1">List</string>
+    <string name="category2">Favorite</string>
+    <string name="artist">Artist\nSong</string>
+    <string name="text_1">
+        The idea is to make the music app for soundtracks from movies, cartoons etc.
+        \nMain page - one of two fragments.
+        \nHere are 4 main categories  - clickable ImageViews, with the usage of explicit intent.
+    </string>
+    <string name="text_2">
+        In this Fragment user will have only favorite songs.
+        By clicking on the heart button in the music player, the song will be stored here.
+    </string>
+    <string name="text_3">
+        ListView is used for page with list of items of chosen category.
+        Inside this list all the items are clickable.
+        \nOn the next page there is the ListView of all the songs that are belongs to the film/series/cartoon/anime.
+        \nBoth activities have the backup navigation.
+        \nThe Search will be implemented inside the app, so user can find a song, an artist or a particular film.
+    </string>
+     <string name="text_4">
+         For implementing MediaPlayer ExoPlayer library is needed.\n
+         Here is the cover image or image by default.\n
+         Pause, start, forward, back buttons will be implemented.\n
+         On the bottom will be a button that open a menu with songs from the category, favorite button and shuffle.
+    </string>
+    <string name="title_search">search</string>
+    <string name="searchHere">Search Here</string>
+    <string name="anime_name_1">Naruto Shippuden</string>
+    <string name="anime_name_2">Attack on Titan</string>
+    <string name="anime_name_3">Sword Art Online</string>
+    <string name="anime_name_4">Fairy Tail</string>
+    <string name="anime_name_5">Code Geass</string>
+    <string name="anime_name_6">One Piece</string>
+    <string name="anime_name_7">Fullmetal Alchemist</string>
+    <string name="anime_name_8">Tokyo Ghoul</string>
+    <string name="anime_name_9">Blue Exorcist</string>
+    <string name="anime_name_10">No Game No Life</string>
+    <string name="anime_name_11">Rurouni Kenshin</string>
+
+    <string name="cartoon_name_1">Zootopia</string>
+    <string name="cartoon_name_2">Waltz with Bashir</string>
+    <string name="cartoon_name_3">Song Of The Sea</string>
+    <string name="cartoon_name_4">Moana</string>
+    <string name="cartoon_name_5">Finding Nemo</string>
+    <string name="cartoon_name_6">The LEGO Movie</string>
+    <string name="cartoon_name_7">The Little Mermaid</string>
+    <string name="cartoon_name_8">The Little Prince</string>
+    <string name="cartoon_name_9">Kung Fu Panda 3</string>
+    <string name="cartoon_name_10">Mulan</string>
+    <string name="cartoon_name_11">The Princess and the Frog</string>
+
+    <string name="movies_name_1">Forrest Gump</string>
+    <string name="movies_name_2">The Matrix</string>
+    <string name="movies_name_3">Titanic</string>
+    <string name="movies_name_4">Avatar</string>
+    <string name="movies_name_5">Léon: The Professional</string>
+    <string name="movies_name_6">Catch Me If You Can</string>
+    <string name="movies_name_7">Beauty And The Beast</string>
+    <string name="movies_name_8">Ghost In The Shell</string>
+    <string name="movies_name_9">Tulip Fever</string>
+    <string name="movies_name_10">Justice League</string>
+    <string name="movies_name_11">Spider-Man: Homecoming</string>
+
+    <string name="series_name_1">Doctor Who</string>
+    <string name="series_name_2">Star Trek</string>
+    <string name="series_name_3">Sherlock</string>
+    <string name="series_name_4">Twin Peaks</string>
+    <string name="series_name_5">Lost</string>
+    <string name="series_name_6">The X-Files</string>
+    <string name="series_name_7">Game Of Thrones</string>
+    <string name="series_name_8">Friends</string>
+    <string name="series_name_9">The Simpsons</string>
+    <string name="series_name_10">The Wire</string>
+    <string name="series_name_11">Breaking Bad</string>
+
+    <string name="artist_song">Artist\nSong</string>
+</resources>

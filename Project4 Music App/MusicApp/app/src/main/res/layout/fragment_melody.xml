@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.example.android.soundtrack.MelodyFragment">
+
+    <TextView
+        android:id="@+id/textDicrp1"
+        style="@style/Discription"
+        android:text="@string/text_1" />
+
+
+    <LinearLayout
+        android:id="@+id/Fist_Layout"
+        style="@style/StartLinearLayout">
+
+        <ImageView
+            android:id="@+id/movies"
+            style="@style/Categories"
+            android:src="@drawable/movies"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/cartoons"
+            style="@style/Categories"
+            android:src="@drawable/cartoons"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/StartLinearLayout"
+        android:layout_below="@id/Fist_Layout">
+
+        <ImageView
+            android:id="@+id/series"
+            style="@style/Categories"
+            android:src="@drawable/series"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/anime"
+            style="@style/Categories"
+            android:src="@drawable/anime"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+</RelativeLayout>

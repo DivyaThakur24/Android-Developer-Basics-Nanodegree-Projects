@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fastfood"
+    android:alpha="0.97"
+    android:backgroundTintMode="multiply"
+    android:backgroundTint="@color/backColor"
+    tools:context=".MainActivity">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/about"
+            android:layout_marginLeft="@dimen/firstMarginLeft"
+            android:layout_marginTop="@dimen/firstMarginTop"
+            app:cardElevation="@dimen/cardELevate">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/paddingValue"
+                    android:background="@drawable/gradient_flare"
+                    android:tooltipText="@string/aboutUs"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textColor="@android:color/white"
+                            android:drawableLeft="@drawable/ic_grade_white_24dp"
+                            android:drawablePadding="@dimen/paddingValue"
+                            android:text="@string/aboutUs"
+                            android:textAllCaps="true"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textColor="@android:color/white"
+                            android:text="@string/description"
+                            android:autoLink="web"
+                            android:textColorLink="@android:color/white"
+                            android:textStyle="bold" />
+
+                </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/contact"
+            android:layout_below="@id/about"
+            android:layout_marginLeft="@dimen/secondMarginLeft"
+            android:layout_marginTop="@dimen/valueMarginTop"
+            app:cardElevation="@dimen/cardELevate">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/paddingValue"
+                    android:background="@drawable/gradient_pink"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textColor="@android:color/white"
+                            android:drawableLeft="@drawable/ic_phone_in_talk_white_24dp"
+                            android:drawablePadding="@dimen/paddingValue"
+                            android:autoLink="phone"
+                            android:textColorLink="@android:color/white"
+                            android:tooltipText="@string/callNow"
+                            android:text="@string/number"
+                            android:textStyle="bold|italic" />
+
+                </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+            android:id="@+id/email"
+        android:layout_below="@id/contact"
+        android:layout_marginLeft="@dimen/thirdMarginLeft"
+        android:layout_marginTop="@dimen/valueMarginTop"
+        app:cardElevation="@dimen/cardELevate">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/paddingValue"
+            android:background="@drawable/gradient_toad"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:autoLink="email"
+                android:textColor="@android:color/white"
+                android:drawableLeft="@drawable/ic_mail_white_24dp"
+                android:drawablePadding="@dimen/paddingValue"
+                android:textColorLink="@android:color/white"
+                android:text="@string/email"
+                android:tooltipText="@string/mailNow"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/map"
+        android:layout_below="@id/email"
+        android:layout_marginLeft="@dimen/fourthMarginLeft"
+            android:layout_marginRight="@dimen/fourthMarginRight"
+        android:layout_marginTop="@dimen/valueMarginTop"
+        app:cardElevation="@dimen/cardELevate">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/paddingValue"
+            android:background="@drawable/gradient_sunset"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:drawableLeft="@drawable/ic_add_location_white_24dp"
+                android:drawablePadding="@dimen/paddingValue"
+                android:text="@string/address"
+                android:textColorLink="@android:color/white"
+                android:tooltipText="@string/welcome"
+                android:autoLink="map"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

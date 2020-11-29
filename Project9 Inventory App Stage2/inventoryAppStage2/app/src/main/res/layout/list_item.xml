@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:theme="@style/EditorTheme"
+    >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        tools:text="product"
+        app:layout_constraintBaseline_toBaselineOf="@id/sold"
+        />
+
+    <TextView
+        app:layout_constraintLeft_toRightOf="@+id/name"
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="5"
+        android:paddingHorizontal="20dp"
+        android:maxLines="1"
+        app:layout_constraintBaseline_toBaselineOf="@id/sold"
+        />
+    <TextView
+        app:layout_constraintRight_toLeftOf="@+id/sold"
+        android:id="@+id/quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="1000"
+        android:maxLines="1"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintBaseline_toBaselineOf="@id/sold"
+
+        />
+
+    <Button
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/sold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sold"
+        android:focusable="false"
+        android:backgroundTint="@color/colorPrimaryE"
+        android:textColor="@color/white"
+        />
+
+</android.support.constraint.ConstraintLayout>

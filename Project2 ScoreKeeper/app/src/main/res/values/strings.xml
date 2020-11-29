@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Project2-ScoreKeeper</string>
+    <string name="volley">Volley</string>
+    <string name="miss">Miss</string>
+    <string name="reset">Reset Game</string>
+    <string name="greeting">"Let's   Start"</string>
+</resources>

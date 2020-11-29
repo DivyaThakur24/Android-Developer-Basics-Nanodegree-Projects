@@ -1,0 +1,127 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/main_color</item>
+    </style>
+
+    <style name="Icons_In_player">
+        <item name="android:layout_width">@dimen/zero</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="Logo">
+        <item name="android:layout_width">@dimen/value_110</item>
+        <item name="android:layout_height">@dimen/value_50</item>
+        <item name="android:layout_marginStart">@dimen/value_20</item>
+        <item name="android:layout_marginTop">@dimen/value_4</item>
+        <item name="android:src">@drawable/logotype</item>
+    </style>
+
+    <style name="StartLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/value_30</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_below">@id/textDicrp1</item>
+    </style>
+
+    <style name="Categories">
+        <item name="android:layout_width">@dimen/zero</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">@dimen/value_150</item>
+    </style>
+
+    <style name="Discription">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/value_11</item>
+        <item name="android:background">@color/txt_1</item>
+        <item name="android:textColor">@color/txt_2</item>
+    </style>
+
+    <style name="ArtistImg">
+        <item name="android:layout_width">@dimen/value_30</item>
+        <item name="android:layout_height">@dimen/value_30</item>
+        <item name="android:layout_margin">@dimen/value_10</item>
+    </style>
+
+    <style name="ArtistTxt">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/value_50</item>
+        <item name="android:paddingStart">@dimen/value_20</item>
+        <item name="android:paddingEnd">@dimen/value_10</item>
+        <item name="android:text">@string/artist</item>
+        <item name="android:textSize">@dimen/value_txt</item>
+        <item name="android:textColor">@color/txt_2</item>
+        <item name="android:layout_marginTop">@dimen/value_10</item>
+        <item name="android:layout_toEndOf">@id/trackPic</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+   <style name="TabLayout">
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="RelativeLayout_inOrder">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/value_80</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_toEndOf">@id/Putpic</item>
+        <item name="android:layout_marginTop">@dimen/value_4</item>
+        <item name="android:paddingStart">@dimen/value_16</item>
+    </style>
+
+    <style name="Text_inOrder">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/value_44</item>
+        <item name="android:textColor">@color/txt_2</item>
+        <item name="android:layout_marginTop">@dimen/value_15</item>
+        <item name="android:textSize">@dimen/value_txt</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <style name="HeadPhones">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/value_70</item>
+        <item name="android:src">@drawable/music</item>
+        <item name="android:layout_width">@dimen/headphones</item>
+        <item name="android:layout_height">@dimen/headphones</item>
+    </style>
+
+    <style name="Icons_play" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="Icons_play.Back" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/value_10</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:src">@drawable/rewind</item>
+    </style>
+
+    <style name="LayoutForPlayer" parent="AppTheme">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_below">@id/headphones</item>
+        <item name="android:layout_marginBottom">@dimen/value_20</item>
+        <item name="android:layout_marginTop">@dimen/value_50</item>
+        <item name="android:padding">@dimen/value_15</item>
+    </style>
+
+    <style name="SeekBar" parent="AppTheme">
+        <item name="android:layout_width">@dimen/threehundred</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_below">@id/play</item>
+        <item name="android:layout_margin">@dimen/value_10</item>
+    </style>
+</resources>
